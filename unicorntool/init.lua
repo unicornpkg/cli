@@ -1,16 +1,15 @@
 local unicorn = dofile("/lib/unicorn/init.lua")
-unicorn.util = dofile("/lib/unicorn/util.lua")
 
 local tArgs = {...}
 
 local command = tArgs[1]
 local target = tArgs[2]
 
-if command == "install" then
+if command == "install" or command == "add" then
 	local f = dofile(target)
-	unicorn.install(f)
+	unicorn.core.install(f)
 elseif command == "uninstall" or command == "remove" then
-	unicorn.uninstall(target)
+	unicorn.core.uninstall(target)
 else
 	error("No such command.")
 end
