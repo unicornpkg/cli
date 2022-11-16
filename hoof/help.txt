@@ -1,0 +1,11 @@
+hoof - tool for interacting with unicornpkg remotes
+
+Usage:
+
+hoof install package
+hoof uninstall package
+
+See also:
+
+help unicorntool
+help hoof

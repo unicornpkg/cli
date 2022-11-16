@@ -1,0 +1,10 @@
+unicorntool - interface to unicornpkg
+
+Usage:
+unicorntool install /PATH/TO/FILE
+unicorntool uninstall package_name
+
+See also:
+
+help hoof
+help unicorntool
