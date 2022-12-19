@@ -2,11 +2,11 @@
 
 The command-line interface for the [unicornpkg library](https://unicornpkg.github.io).
 
-Includes `unicorntool`, a utility for installing raw package tables. This also houses `hoof` as well.
+Includes `unicorntool`, a utility for installing raw package tables. This also houses the `hoof` tool for interacting with package remotes.
 
 ## Structure
 
-`init.Lua` contains the actual program.
+`init.lua` contains the actual program.
 
 `help.txt contains plain-text help for use with the CraftOS `help` program.
 
