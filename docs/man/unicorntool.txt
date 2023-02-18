@@ -1,0 +1,12 @@
+unicorntool - manage the unicornpkg package database
+
+unicorntool allows the user to manage the package database of the unicornpkg package manager.
+
+-- Usage --
+
+unicorntool install <file.lua>
+unicorntool add <file.lua>
+unicorntool uninstall <package name>
+unicorntool remove <package name>
+
+(c) 2023 tomodachi94 and contributors, Apache 2.0 License

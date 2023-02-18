@@ -1,0 +1,12 @@
+hoof - download packages from a remote
+
+hoof allows the user to download packages from a package remote.
+
+-- Usage --
+
+unicorntool install <package name>
+unicorntool add <package name>
+unicorntool uninstall <package name>
+unicorntool remove <package name>
+
+(c) 2023 tomodachi94 and contributors, Apache 2.0 License
