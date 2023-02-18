@@ -3,4 +3,9 @@ authors = ["Tomo"]
 language = "en"
 multilingual = false
 src = "docs/md"
-title = "hoof/unicorntool docs"
+title = "unicornpkg CLI docs"
+[output.html]
+git-repository-url = "https://github.com/unicornpkg/cli"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/unicornpkg/cli/edit/main/docs/md/{path}"
+site-url = "/cli/"
