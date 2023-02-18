@@ -1,0 +1,6 @@
+[book]
+authors = ["Tomo"]
+language = "en"
+multilingual = false
+src = "docs/md"
+title = "hoof/unicorntool docs"
