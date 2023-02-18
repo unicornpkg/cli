@@ -1,5 +1,5 @@
 # CLI components of unicornpkg
 
-The command-line interface for the [unicornpkg library](https://unicornpkg.github.io).
+The command-line interface for the [unicornpkg library](https://unicornpkg.madefor.cc).
 
-Includes `unicorntool`, a utility for installing raw package tables. This will eventually house `hoof` as well.
+Includes `unicorntool`, a utility for manually managing the package database. This also includes `hoof`, a tool for installing packages from package remotes.
