@@ -9,3 +9,10 @@ git-repository-url = "https://github.com/unicornpkg/cli"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/unicornpkg/cli/edit/main/docs/md/{path}"
 site-url = "/cli/"
+
+[output.html.redirect]
+"/index.html" = "https://unicornpkg.github.io/libunicornpkg/cli/index.html"
+"/manual.html" = "https://unicornpkg.github.io/libunicornpkg/cli/index.html"
+"/hoof.html" = "https://unicornpkg.github.io/libunicornpkg/cli/hoof.html"
+"/unicorntool.html" = "https://unicornpkg.github.io/libunicornpkg/cli/unicorntool.html"
+"/changelog.html" = "https://unicornpkg.github.io/libunicornpkg/cli/changelog.html"
