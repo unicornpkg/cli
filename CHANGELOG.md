@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [unreleased]
 
-## [v1.1.0] - 2025-11-02
+## [1.1.0] - 2025-11-02
 ### Added
 - Use `require()` with a custom `package.path` variable instead of calling `dofile()` directly. This should make the command-line tools compatible with a ROM installation.
 
