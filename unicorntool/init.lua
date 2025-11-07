@@ -1,16 +1,17 @@
 package.path = "/lib/?.lua;/lib/?;/lib/?/init.lua;" .. package.path
 local unicorn = require("unicorn")
 
-local tArgs = {...}
+local tArgs = { ... }
 
 local command = tArgs[1]
 local target = tArgs[2]
 
 local function complete()
-	local completion = require "cc.shell.completion"
-		shell.setCompletionFunction(shell.getRunningProgram(), completion.build(
- 	{ completion.choice, { "install", "uninstall" } }
-))
+	local completion = require("cc.shell.completion")
+	shell.setCompletionFunction(
+		shell.getRunningProgram(),
+		completion.build({ completion.choice, { "install", "uninstall" } })
+	)
 end
 
 complete()
